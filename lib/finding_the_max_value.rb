@@ -4,7 +4,7 @@ def find_max_value(array)
 
   length = array.size
   i = 0
-  size.times do
+  length.times do
     if array[i] > max
       max = array[i]
     end
